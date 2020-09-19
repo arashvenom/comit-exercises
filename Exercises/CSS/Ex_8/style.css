@@ -1,0 +1,52 @@
+h1{
+    color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+header{
+    background-color: rgb(104, 104, 104);
+    text-align: center;
+}
+.profile{
+    border-radius: 15px;
+}
+hr{
+    border:dotted;
+    color: coral;
+}
+
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+form{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    padding: 10px;
+}
+header h1{
+    color: blanchedalmond;
+}
+
+form{
+    margin: 80px;
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #ccc;
+    
+}
