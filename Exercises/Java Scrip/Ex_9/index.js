@@ -46,7 +46,7 @@ function fibonacci(num){
       temp = a;
       a = a + b;
       b = temp;
-      num--;
+      
       console.log(b);
     }
   
