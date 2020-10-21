@@ -38,7 +38,7 @@ evenNumbers();
 evenNumbers();
 evenNumbers();
 
-function fibonacci(num){
+let fibonacci = function (num){
     let a = 1, b = 0, temp;
     console.log(b);
     for (let i=1; i <= number; i++){
@@ -50,11 +50,34 @@ function fibonacci(num){
       console.log(b);
     }
   
-  }
+  };
   let number = Number(prompt("Enter the number"));
   fibonacci(number);
 
-  let showName=function(){
-    alert("==========\n=      Arash      =\n ==========");
+  let showName=function(name){
+    alert(`==========\n=      ${name}      =\n ==========`);
   };
-  showName();
+  let name=prompt("Enter your name");
+  showName(name);
+
+
+  let factorial = function (factNum){
+      let fact =1;
+for (i=1;i<=factNum;i++){
+     fact =i*fact;
+}
+console.log(fact);
+  };
+
+  factorial(5);
+
+  let factorialRec = function(numRec){
+        if (numRec<=0){
+            return 0;
+        }
+        if (numRec==1){
+            return 1;
+        }
+        return numRec*factorialRec(numRec-1);
+  };
+  console.log(factorialRec(5));
